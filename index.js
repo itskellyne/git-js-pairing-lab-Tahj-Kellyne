@@ -16,3 +16,15 @@ const multiplesOfThree = () => {
     }
 }
 multiplesOfThree();
+
+console.log('problem 3 starts here...')
+//Problem 3
+const multiplesOfThreeOrFive = () => {
+    for (let i = 1; i <= 100; i++) {
+      if (i % 3 === 0 || i % 5 === 0) {
+        console.log(i);
+      }
+    }
+  }
+multiplesOfThreeOrFive();
+
