@@ -23,11 +23,8 @@ console.log(add(6,6));
 
 
 //8
-const triangleArea = (area,base,height) => {
-    if ( area === 1/2 * base * height) {
-        return area;
-    }
-}
+const triangleArea = (area,base,height) =>  1/2 * base * height
+      
 console.log(triangleArea(5,7));
 console.log(triangleArea(6,8));
 

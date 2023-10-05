@@ -92,3 +92,15 @@ console.log(betweenTwentyAndFourty(21));
 console.log("Problem 10 starts here")
 
 //Problem 10
+const largest = (int1,int2,int3) => {
+    if( int1 > int2 && int1 > int3){
+        return int1
+    } else if (int2 > int1 && int2 > int3){
+        return int2
+    } else {
+        return int3
+    }
+}
+console.log(largest(4,6,8));
+console.log(largest(30,22,17));
+console.log(largest(41,108,86));
