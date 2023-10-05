@@ -37,4 +37,12 @@ const untilNum = (num) => {
     }
    
 }
-(untilNum(5));
+console.log(untilNum(5));
+
+console.log("problem 5 starts here")
+
+//Problem 5
+
+const multiply = (num1, num2) => num1 * num2;
+
+console.log(multiply(3,2));
