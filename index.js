@@ -28,3 +28,13 @@ const multiplesOfThreeOrFive = () => {
   }
 multiplesOfThreeOrFive();
 
+console.log('problem 4 starts here...')
+
+// #4
+const untilNum = (num) => {
+    for (let i = 1; i <= num; i++){
+        console.log(i)
+    }
+   
+}
+(untilNum(5));
