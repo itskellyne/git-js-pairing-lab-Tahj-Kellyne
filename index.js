@@ -71,3 +71,11 @@ const isNegative = (num) => num < 0;
 
 console.log(isNegative(3));
 console.log(isNegative(-2));
+
+console.log("problem 8 starts here")
+
+//8
+const triangleArea = (base,height) => 1/2 * base * height
+        
+console.log(triangleArea(5,7));
+console.log(triangleArea(6,8));
