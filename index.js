@@ -46,3 +46,19 @@ console.log("problem 5 starts here")
 const multiply = (num1, num2) => num1 * num2;
 
 console.log(multiply(3,2));
+
+console.log("problem 6 starts here")
+
+//problem 6
+const add = (num1,num2) => {
+    if ( num1 === num2) {
+        return 3 * (num1 + num2);
+    } else {
+        return num1 + num2
+    }
+    }
+    console.log(add(2,4));
+    console.log(add(10,5));
+    console.log(add(3,7.5));
+    console.log(add(5,5));
+    console.log(add(6,6));
