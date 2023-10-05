@@ -79,3 +79,16 @@ const triangleArea = (base,height) => 1/2 * base * height
         
 console.log(triangleArea(5,7));
 console.log(triangleArea(6,8));
+
+console.log("Problem 9 starts here")
+
+//Problem 9
+
+const betweenTwentyAndFourty = (number) => number >= 20 && number <= 40;
+
+console.log(betweenTwentyAndFourty(4));
+console.log(betweenTwentyAndFourty(21));
+
+console.log("Problem 10 starts here")
+
+//Problem 10
