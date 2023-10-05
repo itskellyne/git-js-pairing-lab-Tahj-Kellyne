@@ -62,3 +62,12 @@ const add = (num1,num2) => {
     console.log(add(3,7.5));
     console.log(add(5,5));
     console.log(add(6,6));
+
+console.log("problem 7 starts here")
+
+//problem 7
+
+const isNegative = (num) => num < 0;
+
+console.log(isNegative(3));
+console.log(isNegative(-2));
